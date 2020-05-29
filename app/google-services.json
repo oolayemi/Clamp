@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "381116737118",
+    "firebase_url": "https://clamp-87aaf.firebaseio.com",
+    "project_id": "clamp-87aaf",
+    "storage_bucket": "clamp-87aaf.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:381116737118:android:f0cf5575a807375f8bf6cf",
+        "android_client_info": {
+          "package_name": "com.stylet.clamp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "381116737118-fp6susuh4hko1doaijjdupnsoptgca7p.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.stylet.clamp",
+            "certificate_hash": "b8f3d4e5aa66b46fd2b62adfbf8fb671199160a4"
+          }
+        },
+        {
+          "client_id": "381116737118-5411hfasg5apgq9qnmlmllcos73abh3b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBqfkMQGQhX06RCV5_8H1g25JkM5ECcY3w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "381116737118-5411hfasg5apgq9qnmlmllcos73abh3b.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#2196f3</color>
+    <color name="colorPrimaryDark">#0069C0</color>
+    <color name="colorAccent">#366AEB</color>
+
+    <color name="whiteTransparentHalf">#80ffffff</color>
+
+    <color name="likeBtnGray">#747474</color>
+    <color name="likeBtnAccent">#F44336</color>
+
+    <color name="twitter_blue">#1da1f2</color>
+    <color name="deep_gray">#ff657786</color>
+    <color name="tab_selected">@color/twitter_blue</color>
+</resources>

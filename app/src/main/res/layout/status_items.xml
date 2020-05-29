@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/status_view"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="160dp"
+    android:layout_height="140dp"
+    android:padding="6dp">
+
+
+        <ImageView
+            android:background="@drawable/image_rounded"
+            android:layout_margin="3dp"
+            android:id="@+id/status_image"
+            android:layout_width="match_parent"
+            android:layout_height="85dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/image_placeholder"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_marginStart="3dp"
+        android:layout_marginBottom="3dp"
+        android:id="@+id/status_user_image"
+        android:layout_marginTop="5dp"
+        android:layout_width="37dp"
+        android:layout_height="37dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/status_image" />
+
+    <TextView
+        android:fontFamily="serif"
+        android:id="@+id/status_user_name"
+        android:layout_marginTop="3dp"
+        android:layout_marginStart="4dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Username"
+        android:textSize="14sp"
+        android:textColor="#000"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/status_user_image"
+        app:layout_constraintTop_toBottomOf="@+id/status_image" />
+
+    <TextView
+        android:layout_marginTop="2dp"
+        android:layout_marginStart="6dp"
+        android:id="@+id/status_user_email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="username"
+        app:layout_constraintStart_toEndOf="@+id/status_user_image"
+        app:layout_constraintTop_toBottomOf="@+id/status_user_name" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/status_view"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="170dp"
+    android:layout_height="230dp"
+    android:layout_margin="2dp"
+    android:padding="2dp"
+    android:backgroundTint="@color/whiteTransparentHalf">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/suggest_user_image"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:src="@drawable/profile_placeholder"
+            app:layout_constraintBottom_toTopOf="@+id/suggest_user_name"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.51"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.120000005" />
+
+        <Button
+            android:drawableStart="@drawable/rsz_1following_small"
+            android:textStyle="bold"
+            android:textAlignment="textStart"
+            android:text="Follow+ 55k"
+            android:textSize="16dp"
+            android:textAllCaps="false"
+            android:textColor="@color/colorPrimary"
+            android:layout_marginBottom="7dp"
+            android:backgroundTint="#FFFFFF"
+            android:background="@drawable/reg_btn_style"
+            android:id="@+id/add_follower_btn"
+            android:layout_marginStart="12dp"
+            android:layout_marginEnd="12dp"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            app:layout_constraintBottom_toBottomOf="parent">
+
+
+        </Button>
+
+
+        <TextView
+            android:layout_marginBottom="7dp"
+            android:id="@+id/suggest_user_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/edit_round"
+            android:text="Time Ex"
+            android:textAlignment="center"
+            android:textColor="#000"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@+id/add_follower_btn"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.cardview.widget.CardView>
